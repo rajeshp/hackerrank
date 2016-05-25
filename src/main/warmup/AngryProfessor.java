@@ -15,14 +15,14 @@ public class AngryProfessor {
 
         int n = scanner.nextInt();
 
-        String[] results=null;
+        String[] results= new String[n];
 
         for(int i=0;i<n;i++)
         {
             int N = scanner.nextInt();
             int K = scanner.nextInt();
 
-            results =  new String[n];
+
 
             int[] arr = new int[N];
 
